@@ -18,11 +18,7 @@ class Attempt2 {
             while(i<m)
                 temp[t++]=nums1[i++];
         }
-        int l=0;
-        while(l<m+n){
-            nums1[l]=temp[l];
-            l++;
-        }
+        System.arraycopy(temp,0,nums1,0,m+n);
         System.out.println(Arrays.toString(nums1));
     }
 
