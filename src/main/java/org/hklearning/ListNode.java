@@ -1,4 +1,4 @@
-package org.hklearning.leetcode150.removenthnodefromend19;
+package org.hklearning;
 
 public class ListNode {
       public int val;
