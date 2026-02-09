@@ -7,7 +7,7 @@ import java.util.List;
 
 public class BinaryTreePreOrderTraversal144 {
     public List<Integer> preorderTraversal(TreeNode root) {
-        List<Integer> list=new ArrayList();
+        List<Integer> list=new ArrayList<>();
         preOrder(root,list);
         return list;
 
