@@ -1,3 +1,7 @@
+package org.hklearning.leetcode150.bst;
+
+import org.hklearning.TreeNode;
+
 class ValidateBinarySearchTree98{
   public boolean isValidBST(TreeNode root) {
         return validate(root, null, null);
